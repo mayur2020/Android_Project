@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".display_events">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Event ID"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/dispeid"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Display"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="200dp"
+            android:id="@+id/disped"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/anbox"
+        android:width="300dp"
+        android:height="300dp"
+        android:inputType="textMultiLine"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Doctor"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/dispelabel"
+            />
+
+    </RelativeLayout>

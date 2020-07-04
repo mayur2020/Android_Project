@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:background="@drawable/log"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_marginTop="40dp"
+        android:paddingBottom="30sp"
+        android:src="@drawable/qq"/>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="167dp"
+
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edittext_username"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/username"
+            android:hint="@string/username"
+            android:paddingLeft="2dp" />
+®
+
+        <EditText
+            android:id="@+id/edittext_password"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:background="#ffffFf"
+            android:drawableLeft="@drawable/password"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#FAB458"
+        android:onClick="log_in"
+        android:text="@string/login"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+
+    </LinearLayout>
+</LinearLayout>

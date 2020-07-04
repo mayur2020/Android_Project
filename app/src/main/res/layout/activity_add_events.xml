@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_events">
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/aename"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Event Description"
+        android:id="@+id/aedesc"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="265dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:id="@+id/aedate"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="350dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+        android:id="@+id/aetime"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="450dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Venue"
+        android:id="@+id/aevenue"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="550dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Events"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/displabel"
+        />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:id="@+id/aeid"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Save Information"
+        android:id="@+id/assave"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="630dp"
+        />
+
+</RelativeLayout>
+

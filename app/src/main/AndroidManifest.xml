@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.scannerapp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".delete_events"></activity>
+        <activity android:name=".delete_animalsec" />
+        <activity android:name=".delete_volunteer" />
+        <activity android:name=".delete_doctor" />
+        <activity android:name=".delete_animal" />
+        <activity android:name=".update_events" />
+        <activity android:name=".update_doctor" />
+        <activity android:name=".update_volunteer" />
+        <activity android:name=".update_animalsec" />
+        <activity android:name=".admin_delete" />
+        <activity android:name=".admin_update" />
+        <activity android:name=".display_events" />
+        <activity android:name=".display_volunteer" />
+        <activity android:name=".display_doctor" />
+        <activity android:name=".display_animalsec" />
+        <activity android:name=".display_animal" />
+        <activity android:name=".admin_display" />
+        <activity android:name=".add_volunteer" />
+        <activity android:name=".add_events" />
+        <activity android:name=".add_animalsection" />
+        <activity android:name=".update_animal" />
+        <activity android:name=".add_doctor" />
+        <activity android:name=".add_animal" />
+        <activity android:name=".admin_add" />
+        <activity android:name=".Home" />
+        <activity android:name=".admin_home" />
+        <activity android:name=".vol_home" />
+        <activity android:name=".doctor_home" />
+        <activity android:name=".Admin_page" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".ScanCodeActivity" />
+        <activity android:name=".MainActivity" >
+
+
+        </activity>
+    </application>
+
+</manifest>

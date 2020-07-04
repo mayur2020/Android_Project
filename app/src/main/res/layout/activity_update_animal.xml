@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".update_animal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Animal Information"
+            android:id="@+id/ualabel"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Animal ID"
+            android:id="@+id/uaenterid"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="120dp"
+            />
+
+        <Spinner
+            android:id="@+id/spin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            android:entries="@array/animal_columns"></Spinner>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter New Value"
+            android:id="@+id/uanewval"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="280dp"
+            />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:id="@+id/update"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="380dp"
+        />
+    </RelativeLayout>

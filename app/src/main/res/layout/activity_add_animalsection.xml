@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".add_animalsection">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Section Name"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="120dp"
+            android:id="@+id/asname"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="No. of animals"
+            android:id="@+id/asno"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="200dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="No. of volunteers"
+            android:id="@+id/asvno"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="300dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Doctor"
+            android:id="@+id/asdoc"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="400dp"
+            />
+
+        <EditText
+            android:id="@+id/ascno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="500dp"
+            android:hint="No. of Caretakers" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Save Information"
+            android:id="@+id/assave"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="600dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Animal Section"
+            android:id="@+id/aslabel"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="40dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Section ID"
+            android:layout_marginLeft="-180dp"
+            android:layout_marginTop="70dp"
+            android:id="@+id/aid"
+            />
+
+
+    </RelativeLayout>
+

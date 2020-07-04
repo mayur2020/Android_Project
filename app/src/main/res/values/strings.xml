@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Scanner App</string>
+
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="welcome_user">Welcome User</string>
+
+    <string-array name="animal_columns">
+        <item>Gender</item>
+        <item>Animal_type</item>
+        <item>Age</item>
+        <item>Case_type</item>
+        <item>Diagnosis</item>
+        <item>Vaccination</item>
+        <item text="Doctor Assigned">Doctor</item>
+    </string-array>
+
+
+    <string-array name="animalsection_columns">
+        <item>Sec_Name</item>
+        <item>No_Of_Animal</item>
+        <item>No_Of_Vol</item>
+        <item>Doctor</item>
+        <item>No_Of_Caretaker</item>
+    </string-array>
+</resources>

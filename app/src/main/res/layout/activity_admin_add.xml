@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".admin_add">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="110dp"
+            android:id="@+id/animal"
+            android:width="180dp"
+            android:text="Animal Info"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="-180dp"
+            android:id="@+id/animalsec"
+            android:width="180dp"
+            android:text="Animal Section Info"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="-180dp"
+            android:width="180dp"
+            android:id="@+id/vol"
+            android:text="Volunteer Information"
+            />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="-180dp"
+        android:id="@+id/doc"
+        android:width="180dp"
+        android:text="Doctor Information"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="-180dp"
+            android:id="@+id/event"
+            android:width="180dp"
+            android:text="Event Information"
+            />
+
+
+    </LinearLayout>

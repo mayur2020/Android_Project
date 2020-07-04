@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".add_volunteer">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:id="@+id/vname"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="70dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:id="@+id/vadd"
+            android:layout_marginTop="135dp"
+            android:layout_marginLeft="70dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Phone No."
+            android:id="@+id/vphno"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="70dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:id="@+id/vemail"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="70dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="280dp">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="75dp"
+                android:layout_height="37dp"
+                android:layout_marginRight="120dp"
+                android:layout_marginBottom="190dp"
+                android:text="Male"
+                />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:layout_marginRight="120dp"
+                android:layout_marginTop="-200dp"
+                android:text="Female"
+                />
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Department"
+            android:id="@+id/vdept"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="70dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Past Experiences"
+            android:id="@+id/vpast"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="70dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birth"
+            android:id="@+id/vdob"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="70dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Qualification"
+            android:id="@+id/vqual"
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="70dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/vpass"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="75dp"
+            />
+
+    <Button
+        android:id="@+id/vreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="590dp"
+        android:text="Save Information" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Volunteer"
+            android:id="@+id/asdoc"
+        android:textSize="25dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:id="@+id/vid"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="-160dp"
+            />
+
+</RelativeLayout>
